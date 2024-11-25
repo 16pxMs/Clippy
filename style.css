@@ -113,6 +113,9 @@
     border-bottom: 1px solid var( --color-border-sec);
   }
 
+  .coloredItem {
+    color: var(--color-text-body);
+  }
 
   #clear-btn {
     width: 100%;
