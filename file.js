@@ -3,11 +3,6 @@
 const title = document.getElementById("title")
 const copiedItems = document.getElementById("listItems")
 
-chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
-    const activeTab = tabs[0]
-    const activeTabId = activeTab.id; 
-  });
-
 
 document.addEventListener("copy", function(event) {
   if (event.clipboardData) {
